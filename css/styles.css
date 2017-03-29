@@ -1,0 +1,77 @@
+
+
+/*======UNIVERSALS======*/
+* {
+	box-sizing: border-box;
+}
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+body, #navbar {
+	background: #00C6FF;
+	background: -webkit-linear-gradient(left, #00C6FF, #1E728A); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #00C6FF, #1E728A); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left, #00C6FF, #1E728A); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #00C6FF, #1E728A); /* Standard syntax */
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+html {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+h1 {
+	color: #00C6FF;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+/*======HEADER/NAV======*/
+#navbar {
+	background-color: transparent;
+	padding-left: 0px;
+	border: none;
+}
+.navbar {
+	border: 1px solid black;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #004d63;
+	background-color: rgba(107, 220, 255, 0.7);
+	margin-left: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #004d63;
+	background-color: rgba(26, 157, 193, 0.75);
+	margin-left: 5px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #004d63;
+	background-color: rgba(107, 220, 255, 0.7);
+}
+.navbar-nav>li>.dropdown-menu {
+	background-color: rgba(30, 115, 138, 0.75);
+}
+.navbar-default .navbar-brand {
+	color: #21a9ff;
+	-webkit-text-stroke: .5px black;
+}
+#brand-logo {
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+}
+/*======OTHER VIDS SECTION======*/
+.playlist {
+	padding-top: 25px;
+}
+
+/*======FOOTER======*/
+#footer {
+	padding-top: 50px;
+}
