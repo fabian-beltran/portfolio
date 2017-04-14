@@ -1,0 +1,145 @@
+
+
+/*======UNIVERSALS======*/
+* {
+	box-sizing: border-box;
+}
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+body/*, #navbar*/ {
+	background-image: url("../img/black-background.jpg");
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+html {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+h1 {
+	color: #0089FB;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+/*======HEADER/NAV======*/
+#navbar {
+	background-image: url("../img/black-background.jpg");
+	padding-left: 0px;
+}
+.navbar {
+	border: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #0089FB;
+	background-color: rgba(92, 92, 92, 0.75);
+	margin-left: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #0089FB;
+	background-color: rgba(50, 50, 50, 1);
+	margin-left: 5px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #0089FB;
+	background-color: rgba(92, 92, 92, 0.75);
+}
+.navbar-nav>li>.dropdown-menu {
+	background-color: rgba(36, 36, 36, 0.75);
+}
+.navbar-default .navbar-brand {
+	color: #0089FB;
+	-webkit-text-stroke: .5px black;
+}
+.dropdown-menu>li>a {
+	color: white;
+
+}
+#brand-logo {
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+}
+
+/*======INFO SECTION======*/
+
+#info-section {
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+@media only screen and (max-width: 960px) {
+    #info-section {
+        margin-bottom: 80px;
+    }
+}
+@media only screen and (max-width: 955px) {
+    #info-section {
+        margin-bottom: 0px;
+    }
+}
+
+#content-list {
+	padding-bottom: 10px;
+}
+ul {
+	text-align: center;
+	list-style-type: disc;
+	list-style-position: inside;
+	color: white;
+}
+#info-text {
+	height: 100px;
+	color: white;
+}
+@media only screen and (max-width: 1068px) {
+    #info-text {
+        height: 120px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    #info-text {
+        height: 200px;
+    }
+}
+#email {
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-text-stroke: .5px black;
+}
+
+/*======OTHER VIDS SECTION======*/
+.playlist {
+	padding-top: 25px;
+}
+@media only screen and (max-width: 1340px) {
+    .video, .playlist {
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .video, .playlist {
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .video, .playlist {
+        height: 175px;
+    }
+}
+@media only screen and (max-width: 325px) {
+    .video, .playlist {
+        height: 90px;
+    }
+}
+/*======FOOTER======*/
+#footer {
+	padding-top: 50px;
+}
+footer {
+	color: white;
+}
